@@ -1,0 +1,122 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    display: table;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (max-width: 425px) {
+ul.controls {
+    display: inline-flex;
+    list-style: none;
+    color: #5bdc34;
+    position: relative;
+    right: -7.5em!important;
+    top: 0em!important;
+}
+    a.nav-tog img {
+        display: block!important;
+    }
+    nav.nav.npc {
+        display: none;
+    }
+    .column {
+        float: left;
+        width: 100%!important;
+        padding: 10px;
+        height: auto;
+    }
+    .column-2 {
+        float: left;
+        width: 100%!important;
+        padding: 10px;
+        height: auto;
+    }
+    .nav-item {
+        padding: 18px 4px 16px 4px!important;
+    }
+    .slider-text-zone {
+        padding: 7em 0em 0 0em!important;
+    }
+    .slider-text-zone h1 {
+        font-size: 3em!important;
+    }
+    img.img-plans-left {
+        display: none!important;
+    }
+    img.img-plans-right {
+        display: none!important;
+    }
+    .slider-plans {
+        padding: 0em 1em 3em 1em!important;
+        margin-top: 1em!important;
+        height: 659px!important;
+        background-color: #fff!important;
+        border-radius: 24px!important;
+    }
+    .slider-plans-menu li {
+        padding: 10px 0 10px 0!important;
+        display: inline-flex!important;
+    }
+    section.nutrition-plans {
+        height: 1019px!important;
+    }
+    .banner-text-zone h1 {
+        font-size: 2em!important;
+    }
+    .banner-text-zone {
+        padding: 7em 3em 0 3em!important;
+    }
+    .footer-distributed .footer-left {
+        width: 100%!important;
+    }
+    .footer-distributed .footer-center {
+        width: 100%!important;
+    }
+    .footer-distributed .footer-right {
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 1440px) {
+    img.img-plans-left {
+        position: absolute;
+        right: 1.1em!important;
+        height: 300px!important;
+    }
+    img.img-plans-right {
+        position: absolute;
+        left: 2em!important;
+        height: 300px!important;
+    }
+}
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav npc">
+            <a href="index.html" class="nav-item" active-color="orange">Home</a>
+            <a href="services.html" class="nav-item" active-color="orange">Services</a>
+            <a href="About.html" class="nav-item" active-color="green">About</a>
+            <a href="Product.html" class="nav-item" active-color="blue">Product</a>
+            <a href="Contact.html" class="nav-item" active-color="red">Contact</a>
+            <span class="nav-indicator"></span>
+        </nav>
+        <div class="menu-responsive">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="services.html">
+                    <li>Services</li>
+                </a>
+                <a href="About.html">
+                    <li>About</li>
+                </a>
+                <a href="Product.html">
+                    <li>Product</li>
+                </a>
+                <a href="Contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="menu-toggle">
+            <a href="#" class="nav-tog"><img src="img/nav.svg" alt=""></i>
+            </a>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="slider-img-1" style="background-image: url(img/banner-page.png);height: 300px;background-size: cover;width: 100%;">
+            <div class="container">
+                <div class="container-row">
+                    <div class="banner-text-zone">
+                        <h1 class="text-white">CONTACT</h1>
+                        <p class="text-white"><a href="index.html"> Home</a> | Contact</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="sepace-l"></div>
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="column text-center" style="padding: 3em;">
+                    <i class="fa fa-location-arrow"></i>
+                    <p class="title-box">Location</p>
+                    <p>Piccadilly St. James's, London</p>
+                </div>
+                <div class="column text-center" style="padding: 3em;">
+                    <i class="fa fa-phone"></i>
+                    <p class="title-box">Phones</p>
+                    <p>+44 06005050505</p>
+                </div>
+                <div class="column text-center" style="padding: 3em;">
+                    <i class="fa fa-envelope"></i>
+                    <p class="title-box">Email</p>
+                    <p>Eatright@gmail.com</p>
+                </div>
+            </div>
+            <div class="b-row">
+                <div class="">
+                    <div class="container">
+                        <form name="sendMsg" action="" onsubmit="return verify()">
+                            <label for="fName">Full Name</label>
+                            <input type="text" name="fname" value="" id="name" placeholder="Ashley bolk" required /><br>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" value="" placeholder="abc@abc.com" required /><br>
+                            <label for="message" id="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here"></textarea><br>
+                            <div>
+                                <input type="checkbox" id="scales" name="scales" checked>
+                                <label for="scales">Yes, I'd like to recieve news, tips & tricks on marketing from eatright</label>
+                            </div><br>
+                            <input type="submit" name="send" id="send" value="Send" class="button" onClick="verify()" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="sepace-l"></div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3> <span>Eatright</span>
+            </h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="product.html">Product</a>
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Eatright.uk &copy; 2020</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Piccadilly</span> St. James's, London</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+44 06005050505</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:contact@gmail.com">Eatright@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span> At Eatright we believe that food can heal, we are devoted to serving you tasty food that your body and mind say YES to.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".menu-toggle a").click(function() {
+            $(".menu-responsive").slideToggle(700);
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav npc">
+            <a href="index.html" class="nav-item" active-color="orange">Home</a>
+            <a href="services.html" class="nav-item" active-color="orange">Services</a>
+            <a href="About.html" class="nav-item" active-color="green">About</a>
+            <a href="Product.html" class="nav-item" active-color="blue">Product</a>
+            <a href="Contact.html" class="nav-item" active-color="red">Contact</a>
+            <span class="nav-indicator"></span>
+        </nav>
+        <div class="menu-responsive">
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="services.html">
+                    <li>Services</li>
+                </a>
+                <a href="About.html">
+                    <li>About</li>
+                </a>
+                <a href="Product.html">
+                    <li>Product</li>
+                </a>
+                <a href="Contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+        <div class="menu-toggle">
+            <a href="#" class="nav-tog"><img src="img/nav.svg" alt=""></i>
+            </a>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="slider-img-1" style="background-image: url(img/banner-page.png);height: 300px;background-size: cover;width: 100%;">
+            <div class="container">
+                <div class="container-row">
+                    <div class="banner-text-zone">
+                        <h1 class="text-white">PRODUCTS</h1>
+                        <p class="text-white"><a href="index.html"> Home</a> | Products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="sepace-l"></div>
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <a href="product-det.html">
+                    <div id="plats" class="column text-center" style="padding: 3em;">
+                        <img src="img/dish_01-1-360x360.jpg" alt="">
+                        <p class="title-box-product">Our Egg Meal</p>
+                        <p>Click on the product to see more</p>
+                    </div>
+                </a>
+                <a href="product-det.html">
+                    <div id="plats" class="column text-center" style="padding: 3em;">
+                        <img src="img/dish_02-1-360x360.jpg" alt="">
+                        <p class="title-box-product">Our Salmon Meal</p>
+                        <p>Click on the product to see more</p>
+                    </div>
+                </a>
+                <a href="product-det.html">
+                    <div id="plats" class="column text-center" style="padding: 3em;">
+                        <img src="img/dish_03-1-360x360.jpg" alt="">
+                        <p class="title-box-product">Our Veggie Salad</p>
+                        <p>Click on the product to see more</p>
+                    </div>
+                </a>
+
+            </div>
+            <div class="row">
+                <a href="product-det.html">
+                    <div id="plats" class="column text-center" style="padding: 3em;">
+                        <img src="img/dish_04-1-360x360.jpg" alt="">
+                        <p class="title-box-product">Our Red Soup</p>
+                        <p>Click on the product to see more</p>
+                    </div>
+                </a>
+                <a href="product-det.html">
+                    <div id="plats" class="column text-center" style="padding: 3em;">
+                        <img src="img/dish_05-1-360x360.jpg" alt="">
+                        <p class="title-box-product">Our Meat Meal</p>
+                        <p>Click on the product to see more</p>
+                    </div>
+                </a>
+                <a href="product-det.html">
+                    <div id="plats" class="column text-center" style="padding: 3em;">
+                        <img src="img/dish_07-1-360x360.jpg" alt="">
+                        <p class="title-box-product">Our Chicken Meal</p>
+                        <p>Click on the product to see more</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <div class="sepace-l"></div>
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <div class="column-2 bannertext" id="slidetxt">
+
+                        <div class="active">
+                            <h2>Stay Healthy</h2>
+                            <p>Avoiding added sugar in whatever you eat is always a good idea.<br>Don't forget that Low-sugar fruits can be a great snack alternative ! </p>
+                            <a href="product-det.html">Read more</a>
+                        </div>
+                        <div>
+                            <h2>Think Healthy</h2>
+                            <p>Do not hesitate to give yourself the widest range of benefits by eating different-colored produce throughout the day.</p>
+                            <a href="product-det.html">Read more</a>
+                        </div>
+                        <div>
+                            <h2>eat Healthy</h2>
+                            <p>Our delicious new meal full of beautifully coloured vegetables is finally here, and we are so excited for you to try it ! </p>
+                            <a href="product-det.html">Read more</a>
+                        </div>
+                    </div>
+                    <div class="column-2 bannerimg" id="slideshow">
+                        <img src="img/img1.jpg" style="width:440px;height:440px;" class="active">
+                        <img src="img/image1.jpg" style="width:440px;height:440px;">
+                        <img src="img/image2.jpg" style="width:440px;height:440px;">
+                    </div>
+                </div>
+                <ul class="controls">
+                    <li>
+                        <i class="fa fa-chevron-left" onclick="prvslide(); prvslidetxt(); "></i>
+                    </li>
+                    <li>
+                        <i class="fa fa-chevron-right" onclick="nextslide() ;  nextslidetxt() ;"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="sepace-l"></div>
+    <div class="sepace-l"></div>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+
+            <h3><span>Eatright</span>
+            </h3>
+
+            <p class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="product.html">Product</a>
+                <a href="contact.html">Contact</a>
+            </p>
+
+            <p class="footer-company-name">Eatright.uk &copy; 2020</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Piccadilly</span> St. James's, London</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+44 06005050505</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:contact@gmail.com">Eatright@gmail.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>About the company</span> At Eatright we believe that food can heal, we are devoted to serving you tasty food that your body and mind say YES to.
+            </p>
+
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".menu-toggle a").click(function() {
+            $(".menu-responsive").slideToggle(700);
+        });
+    });
+</script>
+
+</html>
