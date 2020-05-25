@@ -1,3 +1,5 @@
+# Website URL: 
+https://4sinen71.github.io/Eatright.github.io/
 # Background
 Eating healthy is something we all know we should do; But only few of us do. The purpose of this website is to try to make a difference by addressing this critical issue that deserves more public  attention; I believe that the fact that food plays a much larger role in overall body and brain health than we ever imagined is a strong reason that made me choose this topic; In Eatright you can find a range of foods that can be adapted to be a healthy option. The small act of reading the menu with awareness instead of focusing on the chips and burgers part can save a lot of Beneficeless calories. My main objective is to bring a healthy message and I have chosen to do this website as a way of investing and defending my concept. 
 
